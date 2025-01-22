@@ -210,6 +210,19 @@ publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
 .PHONY : publisher/fast
 
+#=============================================================================
+# Target rules for targets named subscriber
+
+# Build rule for target.
+subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -234,6 +247,30 @@ src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
 
+src/subscriber.o: src/subscriber.cpp.o
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... practice_1_uninstall"
 	@echo "... uninstall"
 	@echo "... publisher"
+	@echo "... subscriber"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
 .PHONY : help
 
 

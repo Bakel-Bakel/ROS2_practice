@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/publisher" "TARGETS" "publisher" "DESTINATION" "lib/practice_1")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/publisher" "/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/subscriber" "TARGETS" "publisher" "subscriber" "DESTINATION" "lib/practice_1")

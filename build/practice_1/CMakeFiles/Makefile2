@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build
 
 # The main recursive "all" target.
 all: CMakeFiles/publisher.dir/all
+all: CMakeFiles/subscriber.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/practice_1_uninstall.dir/clean
 clean: CMakeFiles/publisher.dir/clean
+clean: CMakeFiles/subscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ publisher: CMakeFiles/publisher.dir/rule
 CMakeFiles/publisher.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/clean
 .PHONY : CMakeFiles/publisher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles --progress-num=3,4 "Built target subscriber"
+.PHONY : CMakeFiles/subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles 0
+.PHONY : CMakeFiles/subscriber.dir/rule
+
+# Convenience name for target.
+subscriber: CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber
+
+# clean rule for target.
+CMakeFiles/subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
+.PHONY : CMakeFiles/subscriber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

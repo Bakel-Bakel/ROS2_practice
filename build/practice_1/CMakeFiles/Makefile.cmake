@@ -678,4 +678,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/practice_1_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/publisher.dir/DependInfo.cmake"
+  "CMakeFiles/subscriber.dir/DependInfo.cmake"
   )

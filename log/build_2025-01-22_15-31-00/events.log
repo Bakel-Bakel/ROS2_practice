@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000821] (practice_1) JobQueued: {'identifier': 'practice_1', 'dependencies': OrderedDict()}
+[0.000983] (practice_1) JobStarted: {'identifier': 'practice_1'}
+[0.010032] (practice_1) JobProgress: {'identifier': 'practice_1', 'progress': 'cmake'}
+[0.010731] (practice_1) JobProgress: {'identifier': 'practice_1', 'progress': 'build'}
+[0.011211] (practice_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1', '--', '-j12', '-l12'], 'cwd': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bakelbakel', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bakelbakel', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/bakelbakel/Documents/ROS2_workspaces', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '86358', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bakelbakel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bakelbakel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bakelbakel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bakelbakel/.local/bin:/home/bakelbakel/.local/bin', 'SESSION_MANAGER': 'local/LordCruise:@/tmp/.ICE-unix/86308,unix/LordCruise:/tmp/.ICE-unix/86308', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbddbde6_2775_40ea_9213_a358163c3233', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKPR02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d84c0723bf.sock', 'GNOME_TERMINAL_SERVICE': ':1.436', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/bakelbakel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.052847] (practice_1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099831] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.215473] (practice_1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.225866] (practice_1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.252712] (practice_1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.260035] (practice_1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.271595] (practice_1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.284123] (practice_1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300215] (-) TimerEvent: {}
+[0.340389] (practice_1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.342553] (practice_1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400324] (-) TimerEvent: {}
+[0.407169] (practice_1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.470874] (practice_1) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.485044] (practice_1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500454] (-) TimerEvent: {}
+[0.573470] (practice_1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.573664] (practice_1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.573712] (practice_1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.574219] (practice_1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.574916] (practice_1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.574962] (practice_1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.575713] (practice_1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.576744] (practice_1) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.593249] (practice_1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.596528] (practice_1) StdoutLine: {'line': b'-- Build files have been written to: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1\n'}
+[0.600555] (-) TimerEvent: {}
+[0.631346] (practice_1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.654133] (practice_1) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[0.700658] (-) TimerEvent: {}
+[0.800958] (-) TimerEvent: {}
+[0.901247] (-) TimerEvent: {}
+[1.001590] (-) TimerEvent: {}
+[1.102138] (-) TimerEvent: {}
+[1.202428] (-) TimerEvent: {}
+[1.302729] (-) TimerEvent: {}
+[1.402988] (-) TimerEvent: {}
+[1.503293] (-) TimerEvent: {}
+[1.603653] (-) TimerEvent: {}
+[1.703949] (-) TimerEvent: {}
+[1.804246] (-) TimerEvent: {}
+[1.904655] (-) TimerEvent: {}
+[2.004965] (-) TimerEvent: {}
+[2.105304] (-) TimerEvent: {}
+[2.205674] (-) TimerEvent: {}
+[2.306005] (-) TimerEvent: {}
+[2.406266] (-) TimerEvent: {}
+[2.506615] (-) TimerEvent: {}
+[2.606933] (-) TimerEvent: {}
+[2.707251] (-) TimerEvent: {}
+[2.807503] (-) TimerEvent: {}
+[2.907841] (-) TimerEvent: {}
+[3.008190] (-) TimerEvent: {}
+[3.108444] (-) TimerEvent: {}
+[3.208695] (-) TimerEvent: {}
+[3.308970] (-) TimerEvent: {}
+[3.409293] (-) TimerEvent: {}
+[3.509624] (-) TimerEvent: {}
+[3.609956] (-) TimerEvent: {}
+[3.710289] (-) TimerEvent: {}
+[3.810618] (-) TimerEvent: {}
+[3.910988] (-) TimerEvent: {}
+[4.011372] (-) TimerEvent: {}
+[4.111614] (-) TimerEvent: {}
+[4.211972] (-) TimerEvent: {}
+[4.312321] (-) TimerEvent: {}
+[4.412548] (-) TimerEvent: {}
+[4.512878] (-) TimerEvent: {}
+[4.613214] (-) TimerEvent: {}
+[4.713620] (-) TimerEvent: {}
+[4.813892] (-) TimerEvent: {}
+[4.914230] (-) TimerEvent: {}
+[5.014565] (-) TimerEvent: {}
+[5.114922] (-) TimerEvent: {}
+[5.215300] (-) TimerEvent: {}
+[5.315559] (-) TimerEvent: {}
+[5.415899] (-) TimerEvent: {}
+[5.516280] (-) TimerEvent: {}
+[5.616641] (-) TimerEvent: {}
+[5.716991] (-) TimerEvent: {}
+[5.817402] (-) TimerEvent: {}
+[5.917673] (-) TimerEvent: {}
+[6.017970] (-) TimerEvent: {}
+[6.118267] (-) TimerEvent: {}
+[6.218608] (-) TimerEvent: {}
+[6.319074] (-) TimerEvent: {}
+[6.419397] (-) TimerEvent: {}
+[6.519756] (-) TimerEvent: {}
+[6.620078] (-) TimerEvent: {}
+[6.720420] (-) TimerEvent: {}
+[6.820709] (-) TimerEvent: {}
+[6.921023] (-) TimerEvent: {}
+[7.021252] (-) TimerEvent: {}
+[7.121661] (-) TimerEvent: {}
+[7.221981] (-) TimerEvent: {}
+[7.322274] (-) TimerEvent: {}
+[7.422571] (-) TimerEvent: {}
+[7.522820] (-) TimerEvent: {}
+[7.623132] (-) TimerEvent: {}
+[7.723548] (-) TimerEvent: {}
+[7.823962] (-) TimerEvent: {}
+[7.924787] (-) TimerEvent: {}
+[8.025144] (-) TimerEvent: {}
+[8.125488] (-) TimerEvent: {}
+[8.225761] (-) TimerEvent: {}
+[8.326022] (-) TimerEvent: {}
+[8.426246] (-) TimerEvent: {}
+[8.526561] (-) TimerEvent: {}
+[8.626833] (-) TimerEvent: {}
+[8.727159] (-) TimerEvent: {}
+[8.827395] (-) TimerEvent: {}
+[8.927727] (-) TimerEvent: {}
+[9.027995] (-) TimerEvent: {}
+[9.128349] (-) TimerEvent: {}
+[9.228657] (-) TimerEvent: {}
+[9.328983] (-) TimerEvent: {}
+[9.429301] (-) TimerEvent: {}
+[9.529632] (-) TimerEvent: {}
+[9.629855] (-) TimerEvent: {}
+[9.730182] (-) TimerEvent: {}
+[9.830445] (-) TimerEvent: {}
+[9.930869] (-) TimerEvent: {}
+[10.031254] (-) TimerEvent: {}
+[10.082465] (practice_1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[10.131450] (-) TimerEvent: {}
+[10.231712] (-) TimerEvent: {}
+[10.330498] (practice_1) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[10.331799] (-) TimerEvent: {}
+[10.340721] (practice_1) CommandEnded: {'returncode': 0}
+[10.341636] (practice_1) JobProgress: {'identifier': 'practice_1', 'progress': 'install'}
+[10.351262] (practice_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1'], 'cwd': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bakelbakel', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bakelbakel', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/bakelbakel/Documents/ROS2_workspaces', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '86358', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bakelbakel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bakelbakel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/bakelbakel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bakelbakel/.local/bin:/home/bakelbakel/.local/bin', 'SESSION_MANAGER': 'local/LordCruise:@/tmp/.ICE-unix/86308,unix/LordCruise:/tmp/.ICE-unix/86308', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fbddbde6_2775_40ea_9213_a358163c3233', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UKPR02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d84c0723bf.sock', 'GNOME_TERMINAL_SERVICE': ':1.436', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/bakelbakel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.358514] (practice_1) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[10.359176] (practice_1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.359733] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/publisher\n'}
+[10.359781] (practice_1) StdoutLine: {'line': b'-- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/subscriber\n'}
+[10.366814] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/package_run_dependencies/practice_1\n'}
+[10.366996] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/parent_prefix_path/practice_1\n'}
+[10.368003] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.sh\n'}
+[10.368172] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.dsv\n'}
+[10.368227] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.sh\n'}
+[10.368402] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.dsv\n'}
+[10.368637] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.bash\n'}
+[10.368839] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.sh\n'}
+[10.369046] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.zsh\n'}
+[10.369241] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.dsv\n'}
+[10.369343] (practice_1) StdoutLine: {'line': b'-- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.dsv\n'}
+[10.376805] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/packages/practice_1\n'}
+[10.377129] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config.cmake\n'}
+[10.377246] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config-version.cmake\n'}
+[10.377452] (practice_1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.xml\n'}
+[10.379034] (practice_1) CommandEnded: {'returncode': 0}
+[10.394558] (practice_1) JobEnded: {'identifier': 'practice_1', 'rc': 0}
+[10.395059] (-) EventReactorShutdown: {}
