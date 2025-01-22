@@ -1,0 +1,10 @@
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/uninstall.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/practice_1_uninstall.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/publisher.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/test.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/edit_cache.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/rebuild_cache.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/list_install_components.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/install.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/install/local.dir
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles/install/strip.dir

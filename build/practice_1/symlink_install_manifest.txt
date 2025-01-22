@@ -1,0 +1,16 @@
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/publisher
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/package_run_dependencies/practice_1
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/parent_prefix_path/practice_1
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.sh
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.dsv
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.sh
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.dsv
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.bash
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.sh
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.zsh
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.dsv
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.dsv
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/packages/practice_1
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config.cmake
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config-version.cmake
+/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.xml

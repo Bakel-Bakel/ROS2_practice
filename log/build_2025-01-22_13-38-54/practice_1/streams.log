@@ -1,0 +1,64 @@
+[0.015s] Invoking command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/src/practice_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.139s] -- The CXX compiler identification is GNU 13.3.0
+[0.156s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.388s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.628s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.661s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.694s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.704s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.784s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.786s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.859s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.876s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.955s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.968s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.075s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.076s] -- Configured cppcheck include dirs: 
+[1.076s] -- Configured cppcheck exclude dirs and/or files: 
+[1.076s] -- Added test 'lint_cmake' to check CMake code style
+[1.077s] -- Added test 'uncrustify' to check C / C++ code style
+[1.077s] -- Configured uncrustify additional arguments: 
+[1.077s] -- Added test 'xmllint' to check XML markup files
+[1.079s] -- Configuring done (1.1s)
+[1.098s] -- Generating done (0.0s)
+[1.100s] -- Build files have been written to: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1
+[1.113s] Invoked command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/src/practice_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1
+[1.114s] Invoking command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1 -- -j12 -l12
+[1.163s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[4.907s] [100%] [32m[1mLinking CXX executable publisher[0m
+[5.476s] [100%] Built target publisher
+[5.512s] Invoked command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1 -- -j12 -l12
+[5.553s] Invoking command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1
+[5.565s] -- Install configuration: ""
+[5.566s] -- Execute custom install script
+[5.566s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/publisher
+[5.589s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/package_run_dependencies/practice_1
+[5.607s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/parent_prefix_path/practice_1
+[5.632s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.sh
+[5.653s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.dsv
+[5.673s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.sh
+[5.693s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.dsv
+[5.708s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.bash
+[5.724s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.sh
+[5.746s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.zsh
+[5.769s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.dsv
+[5.796s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.dsv
+[5.819s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/packages/practice_1
+[5.843s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config.cmake
+[5.863s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config-version.cmake
+[5.879s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.xml
+[5.911s] Invoked command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1
