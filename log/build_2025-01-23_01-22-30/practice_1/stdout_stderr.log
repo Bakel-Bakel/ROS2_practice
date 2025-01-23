@@ -1,0 +1,23 @@
+[ 50%] Built target publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/publisher
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/subscriber
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/package_run_dependencies/practice_1
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/parent_prefix_path/practice_1
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.sh
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.dsv
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.bash
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.sh
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.zsh
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.dsv
+-- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.dsv
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/packages/practice_1
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config.cmake
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config-version.cmake
+-- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.xml

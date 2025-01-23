@@ -15,6 +15,7 @@ class HelloWorldSubNode : public rclcpp::Node
       void sub_callback(const std_msgs::msg::String & msg) const
       {
         std::cout << msg.data << std::endl;
+        RCLCPP_INFO(this->get_logger(), msg.data.c_str());
       }
       rclcpp::Subscription<std_msgs::msg::String> ::SharedPtr subscription_;
 };

@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1 -- -j12 -l12
+[0.086s] [ 50%] Built target publisher
+[0.094s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[10.092s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[10.323s] [100%] Built target subscriber
+[10.335s] Invoked command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1 -- -j12 -l12
+[10.348s] Invoking command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1
+[10.355s] -- Install configuration: "RelWithDebInfo"
+[10.356s] -- Execute custom install script
+[10.356s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/publisher
+[10.356s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/lib/practice_1/subscriber
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/package_run_dependencies/practice_1
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/parent_prefix_path/practice_1
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.sh
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/ament_prefix_path.dsv
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.sh
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/environment/path.dsv
+[10.357s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.bash
+[10.358s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.sh
+[10.358s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.zsh
+[10.358s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/local_setup.dsv
+[10.358s] -- Symlinking: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.dsv
+[10.367s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/ament_index/resource_index/packages/practice_1
+[10.368s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config.cmake
+[10.368s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/cmake/practice_1Config-version.cmake
+[10.368s] -- Up-to-date symlink: /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/install/practice_1/share/practice_1/package.xml
+[10.370s] Invoked command in '/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1
