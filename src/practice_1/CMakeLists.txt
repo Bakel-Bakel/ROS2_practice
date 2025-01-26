@@ -20,10 +20,15 @@ ament_target_dependencies(publisher rclcpp std_msgs)
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
 
+add_executable(rpm_pub src/rpm_pub.cpp)
+ament_target_dependencies(rpm_pub rclcpp std_msgs)
+
+
 #config for ROS2 cli tools
 install(TARGETS
   publisher
   subscriber
+  rpm_pub
   DESTINATION lib/${PROJECT_NAME}
 )
 

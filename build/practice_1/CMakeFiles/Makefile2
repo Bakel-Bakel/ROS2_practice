@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build
 # The main recursive "all" target.
 all: CMakeFiles/publisher.dir/all
 all: CMakeFiles/subscriber.dir/all
+all: CMakeFiles/rpm_pub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/practice_1_uninstall.dir/clean
 clean: CMakeFiles/publisher.dir/clean
 clean: CMakeFiles/subscriber.dir/clean
+clean: CMakeFiles/rpm_pub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -163,7 +165,7 @@ CMakeFiles/publisher.dir/clean:
 CMakeFiles/subscriber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles --progress-num=3,4 "Built target subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles --progress-num=5,6 "Built target subscriber"
 .PHONY : CMakeFiles/subscriber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ subscriber: CMakeFiles/subscriber.dir/rule
 CMakeFiles/subscriber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
 .PHONY : CMakeFiles/subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rpm_pub.dir
+
+# All Build rule for target.
+CMakeFiles/rpm_pub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles --progress-num=3,4 "Built target rpm_pub"
+.PHONY : CMakeFiles/rpm_pub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rpm_pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rpm_pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bakelbakel/Documents/ROS2_workspaces/practice1_ws/build/practice_1/CMakeFiles 0
+.PHONY : CMakeFiles/rpm_pub.dir/rule
+
+# Convenience name for target.
+rpm_pub: CMakeFiles/rpm_pub.dir/rule
+.PHONY : rpm_pub
+
+# clean rule for target.
+CMakeFiles/rpm_pub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/clean
+.PHONY : CMakeFiles/rpm_pub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

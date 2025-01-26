@@ -223,6 +223,19 @@ subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
 .PHONY : subscriber/fast
 
+#=============================================================================
+# Target rules for targets named rpm_pub
+
+# Build rule for target.
+rpm_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_pub
+.PHONY : rpm_pub
+
+# fast build rule for target.
+rpm_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/build
+.PHONY : rpm_pub/fast
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -246,6 +259,30 @@ src/publisher.s: src/publisher.cpp.s
 src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
+
+src/rpm_pub.o: src/rpm_pub.cpp.o
+.PHONY : src/rpm_pub.o
+
+# target to build an object file
+src/rpm_pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o
+.PHONY : src/rpm_pub.cpp.o
+
+src/rpm_pub.i: src/rpm_pub.cpp.i
+.PHONY : src/rpm_pub.i
+
+# target to preprocess a source file
+src/rpm_pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.i
+.PHONY : src/rpm_pub.cpp.i
+
+src/rpm_pub.s: src/rpm_pub.cpp.s
+.PHONY : src/rpm_pub.s
+
+# target to generate assembly for a file
+src/rpm_pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.s
+.PHONY : src/rpm_pub.cpp.s
 
 src/subscriber.o: src/subscriber.cpp.o
 .PHONY : src/subscriber.o
@@ -287,10 +324,14 @@ help:
 	@echo "... practice_1_uninstall"
 	@echo "... uninstall"
 	@echo "... publisher"
+	@echo "... rpm_pub"
 	@echo "... subscriber"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/rpm_pub.o"
+	@echo "... src/rpm_pub.i"
+	@echo "... src/rpm_pub.s"
 	@echo "... src/subscriber.o"
 	@echo "... src/subscriber.i"
 	@echo "... src/subscriber.s"
